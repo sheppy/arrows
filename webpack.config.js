@@ -25,6 +25,9 @@ const common = {
         path: PATHS.build,
         filename: "[name].js"
     },
+    externals: {
+        "phaser": "Phaser"
+    },
     module: {
         preLoaders: [],
 

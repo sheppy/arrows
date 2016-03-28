@@ -43,6 +43,7 @@
     "webpack-vendor-chunk-plugin": "^1.0.0"
   },
   "dependencies": {
+    "phaser": "^2.4.6",
     "require-dir": "^0.3.0"
   }
 }

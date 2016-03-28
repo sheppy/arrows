@@ -9,7 +9,7 @@ import config from "./config";
 import webpackConfig from"../webpack.config";
 
 
-gulp.task("server", () => {
+gulp.task("server", ["copy-phaser"], () => {
     let webpackCompiler = webpack(webpackConfig);
 
     browserSync({
