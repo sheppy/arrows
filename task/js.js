@@ -14,7 +14,7 @@ gulp.task("copy-phaser", () => {
 
 
 // Compile JS
-gulp.task("js", ["copy-phaser"],  () => {
+gulp.task("js",  () => {
     return gulp
         .src(path.join(config.dir.src, config.dir.client, config.dir.js, config.file.indexJs))
         .pipe(webpack(webpackConfig))
