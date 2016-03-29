@@ -1,7 +1,18 @@
 # Arrows
 
+
+# Resources
+* http://peerjs.com/
+* http://socket.io/
+* https://github.com/jbillmann/GarageServer.IO
+* http://gamestd.io/colyseus/
+
+
 ## Phaser Resources
 * [Debugging](https://gamedevacademy.org/how-to-debug-phaser-games/)
+* [Game Pads](http://phaser.io/examples/v2/input/gamepad-debug)
+* [Game Pads](http://phaser.io/examples/v2/input/gamepad)
+
 
 ## Asset Resources
 * https://www.reddit.com/r/gameassets/

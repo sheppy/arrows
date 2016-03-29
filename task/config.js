@@ -1,5 +1,6 @@
 export default {
     glob: {
+        all: "**/*",
         html: "**/*.html",
         css: "**/*.css",
         scss: "**/*.scss",
@@ -17,7 +18,8 @@ export default {
         scss: "scss",
         css: "css",
         client: "client",
-        server: "server"
+        server: "server",
+        assets: "assets"
     },
     file: {
         indexJs: "index.js",

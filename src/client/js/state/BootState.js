@@ -18,7 +18,7 @@ class BootState extends Phaser.State {
         }
 
         this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-        this.game.scale.setScreenSize(true);
+        // this.game.scale.setScreenSize(true); // Uncaught TypeError: this.game.scale.setScreenSize is not a function
 
         this.game.state.start("Preload", true, false);
     }

@@ -1,7 +1,7 @@
 import gulp from "gulp";
 
-gulp.task("build", ["html", "css", "copy-phaser", "js"]);
+gulp.task("build", ["html", "css", "assets", "copy-phaser", "js"]);
 
-gulp.task("dev", ["html", "css", "copy-phaser", "server"]);
+gulp.task("dev", ["html", "css", "assets", "copy-phaser", "server"]);
 
 gulp.task("default", ["build"]);
