@@ -28,3 +28,10 @@
 * http://kenney.nl/assets/platformer-pack-redux
 * http://kenney.nl/assets/modular-characters
 * http://quale-art.blogspot.co.uk/p/addventure-mini-figs.html
+
+
+## UI
+* https://www.behance.net/gallery/28854117/Sci-fi-game-ui
+* https://dribbble.com/shots/2396043-GUI-for-sci-fi-game
+* https://www.behance.net/gallery/29380757/Hydra-UI
+* http://gamedevelopment.tutsplus.com/tutorials/build-a-sci-fi-game-intro-using-assets-from-deviantart--active-4924

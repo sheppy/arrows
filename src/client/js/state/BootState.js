@@ -14,11 +14,12 @@ class BootState extends Phaser.State {
         this.stage.disableVisibilityChange = true;
 
         if (this.game.device.desktop) {
-            this.stage.scale.pageAlignHorizontally = true;
+            this.scale.pageAlignHorizontally = true;
+            this.scale.pageAlignVertically = true;
         }
 
-        this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-        // this.game.scale.setScreenSize(true); // Uncaught TypeError: this.game.scale.setScreenSize is not a function
+        this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+        // this.scale.setScreenSize(true); // Uncaught TypeError: this.game.scale.setScreenSize is not a function
 
         this.game.state.start("Preload", true, false);
     }
