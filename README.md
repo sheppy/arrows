@@ -1,5 +1,13 @@
 # Arrows
 
+Maps > 10x10  === 64x48 tiles
+
+# Backlog
+* Render a map
+* Player movement
+* Player shooting
+
+
 
 # Resources
 * http://peerjs.com/

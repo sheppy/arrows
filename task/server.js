@@ -32,10 +32,13 @@ gulp.task("server", () => {
         },
         notify: false,
         files: [
+            path.join(config.dir.dist, config.glob.js),
             path.join(config.dir.dist, config.glob.css),
             path.join(config.dir.dist, config.glob.html)
         ]
     });
 
     gulp.watch(path.join(config.dir.src, config.dir.client, config.dir.scss, config.glob.scss), ["css"]);
+    gulp.watch(path.join(config.dir.src, config.dir.client,config.glob.html), ["html"]);
+    gulp.watch(path.join(config.dir.src, config.dir.client, config.dir.assets, config.glob.all), ["assets"]);
 });
