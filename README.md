@@ -36,6 +36,8 @@ Maps > 10x10  === 64x48 tiles
 * http://kenney.nl/assets/platformer-pack-redux
 * http://kenney.nl/assets/modular-characters
 * http://quale-art.blogspot.co.uk/p/addventure-mini-figs.html
+* https://www.patreon.com/posts/3863154
+* https://kronbits.itch.io/matriax-free-assets
 
 
 ## UI
